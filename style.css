@@ -1,0 +1,208 @@
+
+    header{
+        background-color:#CDEBEB;
+        position: relative;
+        padding:100% auto;
+        width:auto;
+        height: 575px;    
+    }
+    
+    .linea{
+        border: solid #362306 6px; 
+        width: 100%;
+       
+        margin: 100px auto;
+        border-color: #362306;
+    } 
+    
+    #encabezado{
+        transition:2s;
+    }
+    #encabezado:hover{
+        transform: translateX(-5%);
+    }
+    
+    #hogar{
+        position: absolute;
+        width: 500px; 
+        height: 500px;
+        right: 350px;
+        top: 75px; 
+    }
+    
+    #raton_1{
+        position: absolute;
+        width: 50px; 
+        height: 50px;
+        right: 390px;
+        top:525px; 
+    }
+    
+    #raton_2{
+        position: absolute;
+        width: 50px; 
+        height: 50px;
+        left: 200px;
+        top:525px; 
+    }
+    #nube{
+        position: absolute;
+        top: 1px;
+        left: 15px;
+        height:200px;
+    }
+    #nube1{
+        position: absolute;
+        height: 200px;
+        right:200px;
+        transition:5s;
+       
+    }
+    #nube2{
+        position: absolute;
+        top: 5px;
+        right: 0px;
+    }
+    #cesped{
+        position: absolute;
+        height: auto;
+        top:400px;
+        right:-50px;
+    }
+    
+    #gato{
+        position: absolute;
+        width: 200px; 
+        height: 200px;
+        right: 200px;
+        top:375px; 
+    }
+    
+    #arbol1{
+        position: absolute;
+        width:200px;
+        bottom:0px;
+    }
+
+
+
+#subtitulos{
+    margin: 50px;
+    padding: auto;
+    
+}
+
+#logo_html{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#logo_css{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 200px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#logo_js{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 300px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#logo_github{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 400px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#link_linke{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 200px;
+    margin-bottom: 100px;
+    margin-top: -80px;
+   
+}
+#link_github{
+    float: right;
+    margin-left: 100px;
+    position:absolute;
+    left: 350px;
+    margin-bottom: 100px;
+    margin-top: -80px;
+}
+#contacto{
+    margin-bottom: 100px;
+}
+
+#Damaris{
+    text-align: center;
+    margin: 0%;
+    color: rgb(140, 10, 145);
+    font-family: "Indie Flower", cursive;
+}
+#imgdamaris{
+     width:200px;}
+
+#Fiorella{
+text-align: center;
+    margin: 0%;
+    color: rgb(145, 10, 66);
+    
+}
+#fiorellaA{
+    font-family: "BhuTuka Expanded One"
+}
+#imgfiorella{
+    width:300px;
+}
+#Karla{
+    text-align: center;
+    margin: 0%;
+    color: rgb(218, 139, 49);   
+    font-family: "Barlow Condensed", sans-serif;
+}
+#tipokarla{
+    font-family: "Barlow Condensed"
+}
+#imgkarla{
+    width:200px;}
+
+#Daniela{
+    text-align: center;
+    margin: 0%;
+    color: rgb(48, 33, 179);
+           
+}
+#danielaB{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#imgdaniela{
+    width:200px;
+    height: 200px;
+}
+
+#Sarai{
+    text-align: center;
+    margin: 0%;
+    color: rgb(209, 41, 153);
+           
+}
+#saraiV{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#imgsarai{
+    width:200px;
+    height: 200px;
+}
