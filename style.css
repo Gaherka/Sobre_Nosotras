@@ -1,160 +1,215 @@
 
-    header{
-        background-color:#CDEBEB;
+/*GENERAL*/
+
+Header{
+        
         position: relative;
         padding:100% auto;
         width:auto;
         height: 575px;    
+        display: flex;
+        background-image: radial-gradient(circle at 28.54% 60.01%, #c6fdfb 0, #b5f2f2 50%, #a3e7e9 100%);
+        margin: 0;
     }
+
     
-    .linea{
-        border: solid #362306 6px; 
-        width: 100%;
-       
-        margin: 100px auto;
-        border-color: #362306;
-    } 
-    
-    #encabezado{
-        transition:2s;
-    }
-    #encabezado:hover{
-        transform: translateX(-5%);
-    }
-    
-    #hogar{
-        position: absolute;
-        width: 500px; 
-        height: 500px;
-        right: 350px;
-        top: 75px; 
-    }
-    
-    #raton_1{
-        position: absolute;
-        width: 50px; 
-        height: 50px;
-        right: 390px;
-        top:525px; 
-    }
-    
-    #raton_2{
-        position: absolute;
-        width: 50px; 
-        height: 50px;
-        left: 200px;
-        top:525px; 
-    }
-    #nube{
-        position: absolute;
-        top: 1px;
-        left: 15px;
-        height:200px;
-    }
+/*BANNER*/    
+  .banner{
+    transition:5s;
+  }
+
+  .banner:hover{
+    transform: translateX(5%);
+  }
+
     #nube1{
         position: absolute;
-        height: 200px;
-        right:200px;
         transition:5s;
-       
+        top: 15px;
+        height: 110px;
+        width: 80%;
+        left: 130px;
+        z-index: 2;
+    }
+    #nube1:hover{
+        transform:translateX(-5%);
     }
     #nube2{
+        position:absolute;
+        right: 0px;  
+        z-index: 2;
+    }
+    #nube3{
+        position:absolute;
+        right: 35%;  
+        z-index: 1;
+        height: 100px;
+        top: 70px;
+    }
+    #nube4{
+        position:absolute;
+        right: 45%;  
+        height: 110px;
+        top: 25px;
+        
+    }
+   
+    #cesped1{
         position: absolute;
-        top: 5px;
+        bottom: 5px;
         right: 0px;
+        z-index: 1;
+  
     }
-    #cesped{
+    #hogar{
         position: absolute;
-        height: auto;
-        top:400px;
-        right:-50px;
+        width: 280px; 
+        height: 280px;
+        right: 540px;
+        bottom: 15px;
+        z-index: 2;
     }
-    
+    #arboles{
+        position: absolute;
+        height: 450px;
+        width: 90%;
+        right: 80px;
+        bottom: 0;
+        
+        z-index: 2;
+    }
+    #ratones{
+        position: absolute;
+        bottom: 20px;
+        height: 60px;
+        width: 950px;
+        z-index: 3;
+        left: 180px;
+    }
+    #cesped2{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        z-index: 4;
+        height: 50px;
+        width: 100%;
+    }
     #gato{
         position: absolute;
-        width: 200px; 
-        height: 200px;
-        right: 200px;
-        top:375px; 
+        bottom: 20px;
+        height: 120px;
+        right: 450px;
+        z-index: 3;
     }
-    
-    #arbol1{
-        position: absolute;
-        width:200px;
-        bottom:0px;
-    }
-
-
-
-#subtitulos{
-    margin: 50px;
-    padding: auto;
-    
+/*MODAL*/
+.fotos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-#logo_html{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 100px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-#logo_css{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 200px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-#logo_js{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 300px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-#logo_github{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 400px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-
-#link_linke{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 200px;
-    margin-bottom: 100px;
-    margin-top: -80px;
+.integrantes{
+    background-image: linear-gradient(355deg, #ffff31 0, #ffff2c 8.33%, #ffff2e 16.67%, 
+    #faff36 25%, #d6ff40 33.33%, #b0ff4a 41.67%, #89f253 50%, #60e35b 58.33%, #2cd563 66.67%,
+     #00c96c 75%, #00ad6b 83.33%, #01b43d 91.67%, #01b43d 100%);
+    padding: 0;
+    margin: 0;
    
 }
-#link_github{
-    float: right;
-    margin-left: 100px;
-    position:absolute;
-    left: 350px;
-    margin-bottom: 100px;
-    margin-top: -80px;
-}
-#contacto{
-    margin-bottom: 100px;
+.h2{
+   
+    margin-bottom: 30px;
+    padding: 25px;
 }
 
-#Damaris{
-    text-align: center;
-    margin: 0%;
-    color: rgb(140, 10, 145);
-    font-family: "Indie Flower", cursive;
+.card{
+border-radius: 25px;
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   
+   
 }
+
+.imagen-content{
+    position: relative;
+    row-gap: 5px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.overlay{
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: rgb(108, 108, 224);
+border-radius: 25px 25px 0 25px;
+}
+
+.imagen-content,
+.card-content{
+padding:10px 14px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.card-imagen{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: aliceblue;
+    text-align: center;
+   
+}
+.card-imagen .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(250, 250, 250);
+   text-align: center;
+}
+
+/*PARTE INFORMACION INDIVIDUAL*/
+.tabla{
+    padding: 30px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    text-decoration: none;
+}
+td{
+    padding: 10px;
+}
+
+
 #imgdamaris{
      width:200px;}
 
+#damarisc{
+    color: rgb(101, 58, 141);
+    text-align: center;
+    font-family: "Secular One", sans-serif;
+    text-decoration:wavy;
+}
+#subtitulosD{
+    color:rgb(101, 58, 141);
+    font-family:"Secular One", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+    text-shadow: 2px#ffff31;
+}
+#dam{
+    color:rgb(101, 58, 141);
+    font-family:"Secular One", sans-serif;
+}
 #Fiorella{
 text-align: center;
     margin: 0%;
