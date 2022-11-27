@@ -55,7 +55,7 @@
                                     <!-- Modal -->
                                     <div class="modal fade" id="Damaris" tabindex="-1" aria-labelledby="damarisc"
                                         aria-hidden="true">
-                                        <div class="modal-dialog modal-lg ">
+                                        <div class="modal-dialog modal-lg" id="fondoD">
                                             <div class="modal-content overflow-auto">
                                                 <div class="modal-header">
                                                     <h1 class="modal-title fs-5" id="damarisc">Damaris Caballero</h1>
@@ -159,9 +159,9 @@
                                                 </div>
                                                 <div class="modal-body">
                                                     <div id="fiorellaA">
-                                                        <section acerca id="subtitulos">
-                                                            <h2 class="text-center">Acerca de mi 🌸</h2>
-                                                            <p>Mi nombre es Lizzie Fiorella Angel, mi experiencia
+                                                        <section acerca >
+                                                            <h2 class="text-center" id="subtitulosF">Acerca de mi 🌸</h2>
+                                                            <p id="fio">Mi nombre es Lizzie Fiorella Angel, mi experiencia
                                                                 profesional se <br>
                                                                 enfocado en el campo social en el desarrollo de
                                                                 proyectos humanitarios. <br>
@@ -179,49 +179,55 @@
                                                                 id="imgfiorella"
                                                                 class=" rounded-circle shadow-lg p-3 mb-2 bg-white rounded">
                                                         </section>
-                                                        <section id="subtitulos">
+                                                        <section id="subtitulosF">
                                                             <h2>Mi caja de herramientas 💻</h2>
-                                                            <img src="./assets/img/html.png" alt="html" height="70px"
-                                                                width="70px" id="logo_html">
-                                                            <img src="./assets/img/css.png" alt="CSS" height="70px"
-                                                                width="70px" id="logo_css">
-                                                            <img src="./assets/img/js.png" alt="JS" height="70px"
-                                                                width="70px" id="logo_js">
-                                                            <img src="./assets/img/github.png" alt="GitHub"
-                                                                height="70px" width="70px" id="logo_github">
+                                                            <table class="tabla">
+                                                                <tr >
+                                                                    <td><img src="./assets/img/html1.png" alt="html" height="70px"
+                                                                        width="70px" id="logo_html"></td>
+                                                                    <td><img src="./assets/img/css1.png" alt="CSS" height="70px"
+                                                                        width="70px" id="logo_css"></td>
+                                                                    <td><img src="./assets/img/js1.png" alt="JS" height="70px"
+                                                                        width="70px" id="logo_js"></td>
+                                                                    <td><img src="./assets/img/github1.png" alt="GitHub" height="70px"
+                                                                        width="70px" id="logo_github"></td>
+                                                                </tr>
+                                                            </table>
                                                         </section>
                                                         <section>
                                                             <br>
-                                                            <h2 id="subtitulos">Mis proyectos</h2>
+                                                            <h2 id="subtitulosF">Mis proyectos</h2>
                                                         </section>
 
                                                         <footer>
                                                             <section>
-                                                                <h2 id="subtitulos">Contactame 💌</h2>
-                                                                <p id="contacto">
+                                                                <h2 id="subtitulosF">Contactame 💌</h2>
+                                                                <p id="fio">
                                                                     Si alguna vez quieres tomar un café/té de burbujas
                                                                     (virtualmente) <br>
                                                                     o simplemente quieres una charla rápida, ¡puedes
                                                                     encontrarme en <br>
                                                                     las redes sociales.
                                                                 </p>
-                                                                <ul>
-                                                                    <a href="https://www.linkedin.com/in/lizzie-angel-71592116a"
-                                                                        target="_blank">
-                                                                        <img src="./assets/img/linkedin.png" alt=""
-                                                                            height="50px" width="50px" id="link_linke">
-                                                                    </a>
-                                                                    <a href="https://github.com/LizzieAngel"
-                                                                        target="_blank">
-                                                                        <img src="./assets/img/github.png" alt=""
-                                                                            height="50px" width="50px" id="link_github">
-                                                                    </a>
-                                                                </ul>
+                                                                <table class="tabla">
+                                                                    <tr>
+                                                                        <td><a href="https://www.linkedin.com/in/lizzie-angel-71592116a"
+                                                                            target="_blank">
+                                                                            <img src="./assets/img/linkedin1.png" alt=""
+                                                                                height="50px" width="50px" id="link_linke">
+                                                                        </a></td>
+                                                                        <td> <a href="https://github.com/LizzieAngel"
+                                                                            target="_blank">
+                                                                            <img src="./assets/img/github1.png" alt=""
+                                                                                height="50px" width="50px" id="link_github">
+                                                                        </a></td>
+                                                                    </tr>
+                                                                </table>
                                                             </section>
                                                         </footer>
                                                         <div class="modal-footer color-pink">
                                                             <h5 id="fiorellaA">Desarrollado y diseñado con amor ❤️</h5>
-                                                            <button type="button" class="btn btn-secondary"
+                                                            <button type="button" class="btn btn-outline-danger""
                                                                 data-bs-dismiss="modal">Cerrar</button>
                                                         </div>
                                                     </div>
@@ -262,72 +268,68 @@
                                             </div>
                                             <div class="modal-body">
                                                 <div id="tipokarla">
-                                                    <section acerca id="subtitulos">
-                                                        <h2 class="text-center">Acerca de mi 🌸</h2>
-                                                        <p>Lorem Ipsum is simply dummy text of the printing and
-                                                            typesetting industry.
-                                                            Lorem Ipsum has been the industry's standard dummy text ever
-                                                            since the 1500s,
-                                                            when an unknown printer took a galley of type and scrambled
-                                                            it to make a type
-                                                            specimen book. It has survived not only five centuries, but
-                                                            also the leap into
-                                                            electronic typesetting, remaining essentially unchanged. It
-                                                            was popularised in
-                                                            the 1960s with the release of Letraset sheets containing
-                                                            Lorem Ipsum passages,
-                                                            and more recently with desktop publishing software like
-                                                            Aldus PageMaker including
-                                                            versions of Lorem Ipsum.
+                                                    <section acerca >
+                                                        <h2 class="text-center" id="subtitulosK">Acerca de mi 🌸</h2>
+                                                        <p id="kar">Lorem Ipsum is simply dummy text of the printing and <br>
+                                                            typesetting industry Lorem Ipsum has been the industry's <br>
+                                                            standard dummy text eversinc a galley of type and scrambled<br>
+                                                            it to make a typespecimen book. It has survived not only <br>
+                                                            five centuries
                                                         </p>
                                                         <img src="./assets/img/Karla_Hernandez.png" alt="Karla"
                                                             id="imgkarla"
                                                             class=" rounded-circle shadow-lg p-3 mb-2 bg-white rounded">
                                                     </section>
                                                     <section id="subtitulos">
-                                                        <h2 style="font-family:Barlow Condensed">Mi caja de herramientas
+                                                        <h2 style="font-family:Barlow Condensed" id="subtitulosK">Mi caja de herramientas
                                                             💻</h2>
-                                                        <img src="./assets/img/html.png" alt="html" height="70px"
-                                                            width="70px" id="logo_html">
-                                                        <img src="./assets/img/css.png" alt="CSS" height="70px"
-                                                            width="70px" id="logo_css">
-                                                        <img src="./assets/img/js.png" alt="JS" height="70px"
-                                                            width="70px" id="logo_js">
-                                                        <img src="./assets/img/github.png" alt="GitHub" height="70px"
-                                                            width="70px" id="logo_github">
+                                                            <table class="tabla">
+                                                                <tr >
+                                                                    <td><img src="./assets/img/html2.png" alt="html" height="70px"
+                                                                        width="70px" id="logo_html"></td>
+                                                                    <td><img src="./assets/img/css2.png" alt="CSS" height="70px"
+                                                                        width="70px" id="logo_css"></td>
+                                                                    <td><img src="./assets/img/js2.png" alt="JS" height="70px"
+                                                                        width="70px" id="logo_js"></td>
+                                                                    <td><img src="./assets/img/github2.png" alt="GitHub" height="70px"
+                                                                        width="70px" id="logo_github"></td>
+                                                                </tr>
+                                                            </table>
                                                     </section>
                                                     <section>
                                                         <br>
-                                                        <h2 id="subtitulos">Mis proyectos</h2>
+                                                        <h2 id="subtitulosK">Mis proyectos</h2>
                                                     </section>
 
                                                     <footer>
                                                         <section>
-                                                            <h2 id="subtitulos">Contactame 💌</h2>
-                                                            <p id="contacto">
+                                                            <h2 id="subtitulosK">Contactame 💌</h2>
+                                                            <p id="kar">
                                                                 Si alguna vez quieres tomar un café/té de burbujas
                                                                 (virtualmente) <br>
                                                                 o simplemente quieres una charla rápida, ¡puedes
                                                                 encontrarme en <br>
                                                                 las redes sociales.
                                                             </p>
-                                                            <ul>
-                                                                <a href="https://www.linkedin.com/in/lizzie-angel-71592116a"
+                                                        <table class="tabla">
+                                                            <tr >
+                                                                <td><a href="https://www.linkedin.com/in/lizzie-angel-71592116a"
                                                                     target="_blank">
-                                                                    <img src="./assets/img/linkedin.png" alt=""
+                                                                    <img src="./assets/img/linkedin2.png" alt=""
                                                                         height="50px" width="50px" id="link_linke">
-                                                                </a>
-                                                                <a href="https://github.com/LizzieAngel"
+                                                                </a></td>
+                                                                <td> <a href="https://github.com/LizzieAngel"
                                                                     target="_blank">
-                                                                    <img src="./assets/img/github.png" alt=""
+                                                                    <img src="./assets/img/github2.png" alt=""
                                                                         height="50px" width="50px" id="link_github">
-                                                                </a>
-                                                            </ul>
+                                                                </a></td>
+                                                            </tr>
+                                                        </table>
                                                         </section>
                                                     </footer>
                                                     <div class="modal-footer color-pink">
                                                         <h5 id="karlaH">Desarrollado y diseñado con amor ❤️</h5>
-                                                        <button type="button" class="btn btn-secondary"
+                                                        <button type="button" class="btn btn-outline-warning"
                                                             data-bs-dismiss="modal">Cerrar</button>
                                                     </div>
                                                 </div>
@@ -366,34 +368,38 @@
                                         </div>
                                         <div class="modal-body">
                                             <div id="danielaB">
-                                                <section acerca id="subtitulos">
-                                                    <h2 class="text-center">Acerca de mi 🌸</h2>
-                                                    <p>Karla Calderón, estudiante de Mercadeo Internacional UES y
+                                                <section acerca >
+                                                    <h2 class="text-center" id="subtitulosDa">Acerca de mi 🌸</h2>
+                                                    <p id="dan">Karla Calderón, estudiante de Mercadeo Internacional UES y <br>
                                                         estudiante full stack junior en Kodigo, 26 años.
                                                     </p>
                                                     <img src="./assets/img/Dani_Bruni.png" alt="Daniela" id="imgdaniela"
                                                         class=" rounded-circle shadow-lg p-3 mb-2 bg-white rounded">
                                                 </section>
-                                                <section id="subtitulos">
-                                                    <h2>Mi caja de herramientas 💻</h2>
-                                                    <img src="./assets/img/html.png" alt="html" height="70px"
-                                                        width="70px" id="logo_html">
-                                                    <img src="./assets/img/css.png" alt="CSS" height="70px" width="70px"
-                                                        id="logo_css">
-                                                    <img src="./assets/img/js.png" alt="JS" height="70px" width="70px"
-                                                        id="logo_js">
-                                                    <img src="./assets/img/github.png" alt="GitHub" height="70px"
-                                                        width="70px" id="logo_github">
+                                                <section>
+                                                    <h2 id="subtitulosDa">Mi caja de herramientas 💻</h2>
+                                                    <table class="tabla">
+                                                        <tr >
+                                                            <td><img src="./assets/img/html3.png" alt="html" height="70px"
+                                                                width="70px" id="logo_html"></td>
+                                                            <td><img src="./assets/img/css3.png" alt="CSS" height="70px"
+                                                                width="70px" id="logo_css"></td>
+                                                            <td><img src="./assets/img/js3.png" alt="JS" height="70px"
+                                                                width="70px" id="logo_js"></td>
+                                                            <td><img src="./assets/img/github3.png" alt="GitHub" height="70px"
+                                                                width="70px" id="logo_github"></td>
+                                                        </tr>
+                                                    </table>
                                                 </section>
                                                 <section>
                                                     <br>
-                                                    <h2 id="subtitulos">Mis proyectos</h2>
+                                                    <h2 id="subtitulosDa">Mis proyectos</h2>
                                                 </section>
 
                                                 <footer>
                                                     <section>
-                                                        <h2 id="subtitulos">Contactame 💌</h2>
-                                                        <p id="contacto">
+                                                        <h2 id="subtitulosDa">Contactame 💌</h2>
+                                                        <p id="dan">
                                                             Si alguna vez quieres tomar un café/té de burbujas
                                                             (virtualmente) <br>
                                                             o simplemente quieres una charla rápida, ¡puedes encontrarme
@@ -403,11 +409,11 @@
                                                         <ul>
                                                             <a href="www.linkedin.com/in/karla-calderon-bruni-7688a423b"
                                                                 target="_blank">
-                                                                <img src="./assets/img/linkedin.png" alt=""
+                                                                <img src="./assets/img/linkedin3.png" alt=""
                                                                     height="50px" width="50px" id="link_linke">
                                                             </a>
                                                             <a href=target="_blank">
-                                                                <img src="./assets/img/github.png" alt="" height="50px"
+                                                                <img src="./assets/img/github3.png" alt="" height="50px"
                                                                     width="50px" id="link_github">
                                                             </a>
                                                         </ul>
@@ -415,7 +421,7 @@
                                                 </footer>
                                                 <div class="modal-footer color-pink">
                                                     <h5 id="danielaB">Desarrollado y diseñado con amor ❤️</h5>
-                                                    <button type="button" class="btn btn-secondary"
+                                                    <button type="button" class="btn btn-outline-primary"
                                                         data-bs-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
@@ -451,10 +457,10 @@
                                             aria-label="Close">X</button>
                                     </div>
                                     <div class="modal-body">
-                                        <div id="saraiV">
-                                            <section acerca id="subtitulos">
-                                                <h2 class="text-center">Acerca de mi 🌸</h2>
-                                                <p> Mi nombre es Sarai Ventura, Ingeniera Industrial y actualmente
+                                        <div>
+                                            <section acerca >
+                                                <h2 class="text-center" id="subtitulosS">Acerca de mi 🌸</h2>
+                                                <p id="sa"> Mi nombre es Sarai Ventura, Ingeniera Industrial y actualmente
                                                     estudiante de <br>
                                                     Full Stack Junior en Kodigo, mi experiencia profesional esta
                                                     enfocada en <br>
@@ -466,26 +472,30 @@
                                                 <img src="./assets/img/Sarai_Ventura.png" alt="Sarai" id="imgsarai"
                                                     class=" rounded-circle shadow-lg p-3 mb-2 bg-white rounded">
                                             </section>
-                                            <section id="subtitulos">
-                                                <h2>Mi caja de herramientas 💻</h2>
-                                                <img src="./assets/img/html.png" alt="html" height="70px" width="70px"
-                                                    id="logo_html">
-                                                <img src="./assets/img/css.png" alt="CSS" height="70px" width="70px"
-                                                    id="logo_css">
-                                                <img src="./assets/img/js.png" alt="JS" height="70px" width="70px"
-                                                    id="logo_js">
-                                                <img src="./assets/img/github.png" alt="GitHub" height="70px"
-                                                    width="70px" id="logo_github">
+                                            <section>
+                                                <h2 id="subtitulosS">Mi caja de herramientas 💻</h2>
+                                                <table class="tabla">
+                                                    <tr >
+                                                        <td><img src="./assets/img/html4.png" alt="html" height="70px"
+                                                            width="70px" id="logo_html"></td>
+                                                        <td><img src="./assets/img/css4.png" alt="CSS" height="70px"
+                                                            width="70px" id="logo_css"></td>
+                                                        <td><img src="./assets/img/js4.png" alt="JS" height="70px"
+                                                            width="70px" id="logo_js"></td>
+                                                        <td><img src="./assets/img/github4.png" alt="GitHub" height="70px"
+                                                            width="70px" id="logo_github"></td>
+                                                    </tr>
+                                                </table>
                                             </section>
                                             <section>
                                                 <br>
-                                                <h2 id="subtitulos">Mis proyectos</h2>
+                                                <h2 id="subtitulosS">Mis proyectos</h2>
                                             </section>
 
                                             <footer>
                                                 <section>
-                                                    <h2 id="subtitulos">Contactame 💌</h2>
-                                                    <p id="contacto">
+                                                    <h2 id="subtitulosS">Contactame 💌</h2>
+                                                    <p id="sa">
                                                         Si alguna vez quieres tomar un café/té de burbujas
                                                         (virtualmente) <br>
                                                         o simplemente quieres una charla rápida, ¡puedes encontrarme en
@@ -495,18 +505,18 @@
                                                     <ul>
                                                         <a href="www.linkedin.com/in/sarai-ventura-075123210"
                                                             target="_blank">
-                                                            <img src="./assets/img/linkedin.png" alt="" height="50px"
+                                                            <img src="./assets/img/linkedin4.png" alt="" height="50px"
                                                                 width="50px" id="link_linke">
                                                         </a>
                                                         <a href="https://github.com/sarai1409" target="_blank">
-                                                            <img src="./assets/img/github.png" alt="" height="50px"
+                                                            <img src="./assets/img/github4.png" alt="" height="50px"
                                                                 width="50px" id="link_github">
                                                         </a>
                                                     </ul>
                                                 </section>
                                             </footer>
                                             <div class="modal-footer color-pink">
-                                                <h5>Desarrollado y diseñado con amor ❤️</h5>
+                                                <h5 id="saraiV">Desarrollado y diseñado con amor ❤️</h5>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-bs-dismiss="modal">Cerrar</button>
                                             </div>

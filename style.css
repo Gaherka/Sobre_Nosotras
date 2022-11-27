@@ -182,17 +182,17 @@ align-items: center;
     margin: 0 auto;
     align-items: center;
     text-align: center;
-    border: 1px solid white;
+    border: 1px none;
     text-decoration: none;
 }
 td{
     padding: 10px;
 }
 
-
+/*DAMARIS*/
 #imgdamaris{
-     width:200px;}
-
+     width:200px;
+}
 #damarisc{
     color: rgb(101, 58, 141);
     text-align: center;
@@ -204,60 +204,94 @@ td{
     font-family:"Secular One", sans-serif;
     text-decoration: underline;
     padding: 10px;
-    text-shadow: 2px#ffff31;
 }
 #dam{
     color:rgb(101, 58, 141);
     font-family:"Secular One", sans-serif;
 }
-#Fiorella{
-text-align: center;
-    margin: 0%;
-    color: rgb(145, 10, 66);
-    
+/*FIORELLA*/
+#imgfiorella{
+    width:200px;
 }
 #fiorellaA{
-    font-family: "BhuTuka Expanded One"
+    font-family: "BhuTuka Expanded One";
+    text-decoration:wavy;
+    color:rgb(128, 12, 12);
 }
-#imgfiorella{
-    width:300px;
+#subtitulosF{
+    color:rgb(134, 11, 11);
+    font-family:"BhuTuka Expanded One", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#fio{
+    color: rgb(194, 63, 63);
+    font-family: "BhuTuka Expanded One";
+}
+
+/*KARLA*/
+#imgkarla{
+    width:200px;
 }
 #Karla{
     text-align: center;
     margin: 0%;
-    color: rgb(218, 139, 49);   
+    color: rgb(223, 119, 0);   
     font-family: "Barlow Condensed", sans-serif;
 }
-#tipokarla{
-    font-family: "Barlow Condensed"
+#subtitulosK{
+    color:rgb(216, 133, 38); 
+    font-family:"Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
 }
-#imgkarla{
-    width:200px;}
-
-#Daniela{
-    text-align: center;
-    margin: 0%;
-    color: rgb(48, 33, 179);
-           
+#kar{
+    color: rgb(219, 159, 91); 
+    font-family: "BhuTuka Expanded One"; 
 }
-#danielaB{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+/*DANIELA*/
 #imgdaniela{
     width:200px;
     height: 200px;
 }
-
-#Sarai{
+#Daniela{
     text-align: center;
     margin: 0%;
-    color: rgb(209, 41, 153);
-           
+    color: rgb(19, 6, 133);        
 }
-#saraiV{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+#subtitulosDa{
+    color:rgb(46, 33, 160); 
+    font-family:"Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
 }
+#dan{
+    color: rgb(89, 80, 163); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*SARAI*/
 #imgsarai{
     width:200px;
     height: 200px;
+}
+
+#subtitulosS{
+    color:rgb(122, 5, 93); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#saraiV{
+    color: rgb(151, 12, 116);  
+    text-align: center;
+    text-decoration:wavy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#sa{
+    color: rgb(92, 71, 86);  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.modal-content{
+    background-color: #fbfdf3;
 }
