@@ -102,6 +102,14 @@ Header{
         z-index: 3;
     }
 /*MODAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+.Desarrolladoras{
+    font-family:'Rubik Distressed', cursive; ;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
 .fotos{
     margin: 0;
     padding: 0;
