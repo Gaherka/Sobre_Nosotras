@@ -295,3 +295,86 @@ td{
 .modal-content{
     background-color: #fbfdf3;
 }
+
+@media (max-width:500px){
+    #nube1{
+        position: absolute;
+        transition:5s;
+        top: 15px;
+        height: 40px;
+        width:80%;
+        left: 35px;
+        z-index: 2;
+    }
+  
+    #nube2{
+        position:absolute;
+        right: 0px;  
+        top: 5px;
+        z-index: 2;
+        width: 100%;
+    }
+    #nube3{
+        position:absolute;
+        right: 120px;
+        z-index: 1;
+        height: 30px;
+        top: 20px;
+    }
+    #nube4{
+        position:absolute;
+        right: 170px;
+        z-index: 1;
+        height: 30px;
+        top: 10px;
+        
+    }
+   
+    #cesped1{
+        position: absolute;
+        bottom: 5px;
+        right: 0px;
+        z-index: 1;
+  
+    }
+    #hogar{
+        position: absolute;
+        width: 150px; 
+        height: 150px;
+        right: 100px;
+        bottom: 15px;
+        z-index: 2;
+    }
+    #arboles{
+        position: absolute;
+        height: 450px;
+        width: 100%;
+        right: 0px;
+        bottom: 0;
+        z-index: 2;
+    }
+    #ratones{
+        position: absolute;
+        bottom: 20px;
+        height: 50px;
+        width: 90%;
+        z-index: 3;
+        left: 18px;
+    }
+    #cesped2{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        z-index: 4;
+        height: 50px;
+        width: 100%;
+    }
+    #gato{
+        position: absolute;
+        bottom: 25px;
+        height: 70px;
+        width: 40px;
+        right: 100px;
+        z-index: 3;
+    }
+}
