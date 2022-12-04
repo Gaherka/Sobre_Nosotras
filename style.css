@@ -296,7 +296,7 @@ td{
     background-color: #fbfdf3;
 }
 
-@media (max-width:500px){
+@media (max-width:576px){
     #nube1{
         position: absolute;
         transition:5s;
